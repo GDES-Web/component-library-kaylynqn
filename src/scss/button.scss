@@ -1,0 +1,19 @@
+$primary-color: rgb(69, 142, 198);
+
+button {
+    background-color: $primary-color;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    border-radius: 10px;
+
+    &:hover, &:active{
+        background-color: darken($primary-color, $amount: 10%);
+    }
+
+    &:active {
+        padding: 8px;
+    }
+}

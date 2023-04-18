@@ -1,0 +1,17 @@
+button {
+  background-color: rgb(69, 142, 198);
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 45%;
+  border-radius: 10px;
+}
+button:hover, button:active {
+  background-color: #3374a5;
+}
+button:active {
+  padding: 8px;
+}
+
+/*# sourceMappingURL=button.css.map */
